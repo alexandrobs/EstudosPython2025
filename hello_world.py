@@ -25,3 +25,27 @@ else:
     print("É aprender com os erros e continuar!")
 
 # Blocos contém instruções que por sua vez contém expressões, que criam, manipulam e exibem objetos e variáveis
+
+# Variáveis e constantes - dinamicamente tipada - case-sentitive - ilimitado tamanho - 
+x = 15
+y = "Rogerão Araújo"
+z = 1.84
+print(x)
+print(type(x))
+print(y)
+print(type(y))
+print(z)
+print(type(z))
+ab = "Python"
+a_b = "Python"
+_a_b = "Python"
+aB = "Python"
+AB = "Python"
+ab2 = "Python"
+print(ab)
+print(a_b)
+print(_a_b)
+print(aB)
+print(AB)
+print(ab2)
+
