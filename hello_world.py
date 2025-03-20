@@ -49,3 +49,99 @@ print(aB)
 print(AB)
 print(ab2)
 
+# Tipos de dados e strings, 
+# numericos: int, float e complex, 
+# bool, 
+# str,
+# sequência: list, tuple, range
+# mapeamento: dict
+# conjunto: set, frozenset
+# binários: bytes, bytearray, memoryview
+# nenhum tipo: NoneType
+
+#list
+x = ["apple", "banana", "cherry"]
+print(x)
+#tuple
+x = ("grape", "avocado", "cocoa")
+print(x)
+#range
+x = range(6)
+#dict
+x = {"nome" : "Rogério", "idade" : 45}
+print(x)
+#set
+x = {"orange", "eggs", "meat"}
+print(x)
+#frozenset
+x = frozenset({"cadeira", "mesa", "armário"})
+print(x)
+#bytes
+x = b"Hello"
+print(x)
+#bytearray
+x = bytearray(5)
+print(x)
+#memoryview
+x = memoryview(bytes(5))
+print(x)
+#NoneType
+x = None
+print(x)
+
+#numericos
+#int
+x = 15
+print(x)
+print(type(x))
+y = 3565600026662245626298784662323232
+print(y)
+z = -3255
+print(z)
+
+#float, pode ser números científicos com um "e" para indicar a potência de 10
+x = 1.84
+print(x)
+z = 35e3
+print(z)
+y = 12E4
+print(y)
+z = -87.7e100
+print(z)
+a = -35.59
+print(a)
+print(type(a))
+
+#complex
+x = 3 + 5j
+print(x)
+y = 5j
+print(y)
+z = -5j
+print(z)
+print(type(z))
+
+#Booleanos
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
+#bool
+x = True
+y = False
+print(x)
+print(y)
+print(x and y)
+print(x or y)
+print(not(x))
+print(type(x))
+
+#str
+x = "Rogerão Araújo"
+print(x)
+x = 'Rogerão Araújo'
+print(x)
+x = '''Rogerão Araújo'''
+print(x)
+x = """Rogerão Araújo"""
+print(x)
+print(type(x))
