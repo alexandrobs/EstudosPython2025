@@ -1,3 +1,5 @@
+# Hello World em Python - Estudos Python em 2025
+
 print("Hello, World!")
 
 # A importância da indentação em python e o correto número de tabulação para padrão de código e evitar o erro IndentationError
@@ -59,38 +61,38 @@ print(ab2)
 # binários: bytes, bytearray, memoryview
 # nenhum tipo: NoneType
 
-#list
+# list
 x = ["apple", "banana", "cherry"]
 print(x)
-#tuple
+# tuple
 x = ("grape", "avocado", "cocoa")
 print(x)
 #range
 x = range(6)
-#dict
+# dict
 x = {"nome" : "Rogério", "idade" : 45}
 print(x)
-#set
+# set
 x = {"orange", "eggs", "meat"}
 print(x)
-#frozenset
+# frozenset
 x = frozenset({"cadeira", "mesa", "armário"})
 print(x)
-#bytes
+# bytes
 x = b"Hello"
 print(x)
-#bytearray
+# bytearray
 x = bytearray(5)
 print(x)
-#memoryview
+# memoryview
 x = memoryview(bytes(5))
 print(x)
-#NoneType
+# NoneType
 x = None
 print(x)
 
-#numericos
-#int
+# numericos
+# int
 x = 15
 print(x)
 print(type(x))
@@ -99,7 +101,7 @@ print(y)
 z = -3255
 print(z)
 
-#float, pode ser números científicos com um "e" para indicar a potência de 10
+# float, pode ser números científicos com um "e" para indicar a potência de 10
 x = 1.84
 print(x)
 z = 35e3
@@ -112,7 +114,7 @@ a = -35.59
 print(a)
 print(type(a))
 
-#complex
+# complex
 x = 3 + 5j
 print(x)
 y = 5j
@@ -121,11 +123,11 @@ z = -5j
 print(z)
 print(type(z))
 
-#Booleanos
+# Booleanos
 print(10 > 9)
 print(10 == 9)
 print(10 < 9)
-#bool
+# bool
 x = True
 y = False
 print(x)
@@ -135,7 +137,7 @@ print(x or y)
 print(not(x))
 print(type(x))
 
-#str
+# str
 x = "Rogerão Araújo"
 print(x)
 x = 'Rogerão Araújo'
@@ -145,3 +147,56 @@ print(x)
 x = """Rogerão Araújo"""
 print(x)
 print(type(x))
+
+# Tipos de dados 2 - Casts
+
+# int()
+print(int(15))
+print(int(1.84))
+print(int("3"))
+
+# float()
+print(float(15))
+print(float(1.84))
+print(float("3"))
+
+# complex()
+a = complex(15)
+print(a)
+b = complex(15.7)
+print(b)
+c = complex("15")
+print(c)
+d = complex(15,7)
+print(d)
+e = complex('15+7j')
+print(e)
+f = complex(15,7) + (10+3j)
+print(f)
+
+# bool()
+print(bool(15))
+print(bool(1.84))
+print(bool("str1"))
+print(bool("False"))
+print(bool(0))
+print(bool(0.0))
+print(bool(""))
+print(bool([]))
+
+# str()
+print(str(15))
+print(str(1.84))
+print(str("str1"))
+
+# exercícios tipos de dados 2
+
+r = 10
+i = 7
+c = complex(r, i) + (6 + 3j)
+print(c)
+
+x = bool(-3)
+y = bool("True"*x)
+z = bool("False")
+print(x and y and z)
