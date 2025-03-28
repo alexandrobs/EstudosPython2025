@@ -227,3 +227,43 @@ print(linguagem[-1:-4:-1])
 print(linguagem[-1:-4:-2])
 print(linguagem[-5:-1])
 print(linguagem[-5:-1:2])
+
+# nomes de variaveis permitidas e nao permitidas, essas ultimas comentadas
+_name = "."
+name123 = ""
+name123name = ""
+name_nome = ""
+name_nome_name_nome_name123name = "" 
+# name@ = ""
+#name name = ""
+# @name = ""
+# name-name = ""
+# 1name = ""
+
+print(_name)
+
+# métodos de string
+nomeStr = " rogerao Araujo "
+print("nomeStr: " + nomeStr)
+print(nomeStr.upper())
+print(nomeStr.lower())
+print(nomeStr.capitalize())
+
+print(nomeStr.replace(" ",""))
+print(nomeStr.isnumeric())
+print(nomeStr.index("j"))
+print(nomeStr.index("Araujo"))
+
+print(nomeStr.strip())
+print(nomeStr.replace("rogerao", "Kal-El"))
+
+linguagens = "Python, Java, C, C#, PHP"
+
+print(linguagens.split(","))
+print(linguagens.split())
+
+linguagens2 = ["Python", "Java", "C", "C#", "PHP", "Python"]
+
+xStr = "-".join(linguagens2)
+print(xStr)
+print(xStr.count("Python"))
