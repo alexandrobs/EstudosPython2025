@@ -267,3 +267,17 @@ linguagens2 = ["Python", "Java", "C", "C#", "PHP", "Python"]
 xStr = "-".join(linguagens2)
 print(xStr)
 print(xStr.count("Python"))
+
+yStr = ",".join(linguagens)
+print(yStr)
+
+strings = ["Olá, ", "mundo!"]
+print(''.join(strings))
+concatena = ''.join(strings)
+print(concatena)
+
+testaStr = "América do Sul"
+print(testaStr.split(';'))
+s1 = (testaStr.split(';')).pop().upper()
+print(testaStr)
+print(s1)
