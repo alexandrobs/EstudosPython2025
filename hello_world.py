@@ -138,13 +138,20 @@ print(not(x))
 print(type(x))
 
 # str
-x = "Rogerão Araújo"
+# strings de 1 linha apenas
+x = "Rogerão Araújo1"
 print(x)
-x = 'Rogerão Araújo'
+x = 'Rogerão Araújo2'
 print(x)
-x = '''Rogerão Araújo'''
+
+# strings de mais de uma linha Docstrings
+x = '''Rogerão Araújo3 Rogerão Araújo3 Rogerão Araújo3 Rogerão Araújo3
+Rogerão Araújo3 Rogerão Araújo3 Rogerão Araújo3 Rogerão Araújo3 Rogerão Araújo3
+Rogerão Araújo3 Rogerão Araújo3 Rogerão Araújo3 Rogerão Araújo3'''
 print(x)
-x = """Rogerão Araújo"""
+x = """Rogerão Araújo4 Rogerão Araújo3 Rogerão Araújo3 Rogerão Araújo3 Rogerão Araújo3
+Rogerão Araújo3 Rogerão Araújo3 Rogerão Araújo3 Rogerão Araújo3 Rogerão Araújo3
+Rogerão Araújo3 Rogerão Araújo3 Rogerão Araújo3 Rogerão Araújo4"""
 print(x)
 print(type(x))
 
@@ -200,3 +207,23 @@ x = bool(-3)
 y = bool("True"*x)
 z = bool("False")
 print(x and y and z)
+
+# Strings
+linguagem = "Python"
+print(linguagem[2])
+print(linguagem[-1])
+
+# fatiamento de string
+print(linguagem[0:3])
+print(linguagem[:])
+print(linguagem[:6])
+print(linguagem[0:])
+print(linguagem[::])
+
+# fatiamento de string usando indices e passes negativos
+print(linguagem[::-1])
+print(linguagem[::2])
+print(linguagem[-1:-4:-1])
+print(linguagem[-1:-4:-2])
+print(linguagem[-5:-1])
+print(linguagem[-5:-1:2])
