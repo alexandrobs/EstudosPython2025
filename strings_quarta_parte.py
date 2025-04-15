@@ -27,3 +27,5 @@ print(c2.isidentifier())
 print(d2.isidentifier())
 print(e2.isidentifier())
 print(f2.isidentifier())
+
+# teste para ver se está rastreando corretamente as alterações no github
